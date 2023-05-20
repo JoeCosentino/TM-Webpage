@@ -82,3 +82,19 @@ section img {
 }
 
 /* ------------------------------- footer */
+
+footer {
+    background: #0e1d6e;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
