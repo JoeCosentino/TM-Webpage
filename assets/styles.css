@@ -7,6 +7,8 @@
 
 body {
     background-color: #f2f1e4;
+    position: relative;
+    min-height: 100vh;
 }
 
 /* ---------------------------------------- header */
@@ -31,9 +33,9 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 10px 8px;
-    font-size: 15px;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5)
+    font-size: 13px;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 0 4px;
 }
 
 header h1 {
@@ -48,18 +50,22 @@ header a {
     color: #2e3332;
 }
 
+/* .copyright {
+    font-size: 10px
+} */
+
+/* ------------------------------------ main sections */
+
 .title {
     text-align: center;
     margin: 30px 0;
     font-size: 54px;
 }
 
-/* ------------------------------------ main sections */
-
 section {
     /* justify-content: center; */
     align-items: center;
-    padding: 20px;
+    padding: 20px 20px 2.5rem 20px;
 }
 
 .wrapper {
@@ -100,10 +106,13 @@ footer {
     color: white;
     text-decoration: none;
     width: 100%;
-    padding: 40px 35px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    height: 5.5rem;
 }
 
 footer a {
