@@ -50,6 +50,8 @@ header a {
 
 .title {
     text-align: center;
+    margin: 30px 0;
+    font-size: 54px;
 }
 
 /* ------------------------------------ main sections */
@@ -68,7 +70,17 @@ section {
 
 section img {
     max-width: 320px;
-    margin: 0 25px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+}
+
+.img-left {
+    margin-right: 25px;
+}
+
+.img-right {
+    margin-left: 25px;
 }
 
 .text-wrapper {
