@@ -213,6 +213,10 @@ footer a {
         flex-wrap: wrap;
     }
 
+    .wrapper h2 {
+        text-align: center;
+    }
+
     .img-left {
         margin-bottom: 20px;
         margin-right: 0;
@@ -254,6 +258,12 @@ footer a {
     }
     header nav ul li {
         width: inherit;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .wrapper p {
         text-align: center;
     }
 }
