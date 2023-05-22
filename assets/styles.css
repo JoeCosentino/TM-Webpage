@@ -42,6 +42,7 @@ header h1 {
     font-weight: bold;
     font-size: 24px;
     color: #2e3332;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
     margin: 0;
 }
 
@@ -118,4 +119,36 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
+}
+
+.footer-text {
+    width: 70%;
+}
+
+.footer-imgs {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.footer-imgs a {
+    margin: 0 5px;
+}
+
+/* ----------------------------- responsive design */
+
+@media screen and (max-width: 930px) {
+    header nav ul li a {
+        font-size: 11px;
+        margin: 0 4px;
+    }
+    
+    header h1 {
+        font-weight: bold;
+        font-size: 20px;
+        color: #2e3332;
+        margin: 0;
+    }
 }
