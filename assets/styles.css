@@ -173,6 +173,10 @@ footer a {
         justify-content: center;
     }
 
+    header h1 {
+        margin-bottom: 10px;
+    }
+
     nav {
         width: 80%;
     }
@@ -187,5 +191,36 @@ footer a {
 @media screen and (max-width: 560px) {
     nav {
         width: 100%;
+    }
+
+    .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .img-left {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .img-right {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 461px) {
+    header nav ul li {
+        width: 33%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    header nav ul {
+        justify-content: center;
+    }
+    header nav ul li {
+        width: inherit;
+        text-align: center;
     }
 }
