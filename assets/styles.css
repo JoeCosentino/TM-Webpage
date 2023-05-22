@@ -182,6 +182,7 @@ footer a {
 @media screen and (max-width: 739px) {
     header {
         justify-content: center;
+        padding: 10px 10px;
     }
 
     header h1 {
@@ -224,6 +225,10 @@ footer a {
 }
 
 @media screen and (max-width: 461px) {
+    header h1 {
+        margin-bottom: 3px;
+    }
+    
     header nav ul li {
         width: 33%;
         text-align: center;
