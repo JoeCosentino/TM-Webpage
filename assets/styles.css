@@ -61,6 +61,9 @@ header a {
     text-align: center;
     margin: 30px 0;
     font-size: 54px;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+    color: #2e3332;
+    font-weight: bold;
 }
 
 section {
@@ -150,5 +153,39 @@ footer a {
         font-size: 20px;
         color: #2e3332;
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 835px) {
+    header {
+        padding: 20px 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section img {
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 739px) {
+    header {
+        justify-content: center;
+    }
+
+    nav {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    nav {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    nav {
+        width: 100%;
     }
 }
