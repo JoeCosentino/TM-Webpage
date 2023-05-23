@@ -133,6 +133,10 @@ section img {
     padding-bottom: 15px;
 }
 
+.paragraph {
+    padding: 3px 0;
+}
+
 /* ------------------------------- footer */
 
 footer {
