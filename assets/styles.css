@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #f2f1e4;
+    background-color: #f5f2f2;
     position: relative;
     min-height: 100vh;
 }
@@ -23,6 +23,7 @@ header {
     top: 0;
     z-index: 9999;
     background-color: white;
+    border-bottom: 1px solid black;
 }
 
 header nav ul {
@@ -30,19 +31,28 @@ header nav ul {
     justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
+    height: 100%;
+}
+
+header nav ul li {
+    margin: 0 4px;
+}
+
+header nav ul li a:hover {
+    /* background-color: lightgray; */
+    color: darkgray;
 }
 
 header nav ul li a {
     font-size: 13px;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
     margin: 0 4px;
+    font-weight: bold;
 }
 
 header h1 {
     font-weight: bold;
     font-size: 24px;
     color: #2e3332;
-    text-shadow: 0 0 10px rgba(0,0,0,0.3);
     margin: 0;
 }
 
@@ -51,9 +61,30 @@ header a {
     color: #2e3332;
 }
 
-/* .copyright {
-    font-size: 10px
-} */
+.copyright {
+    font-size: 10px;
+    
+}
+
+/* ------------------------------------ mobile menu */
+
+.toggle-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
 
 /* ------------------------------------ main sections */
 
@@ -61,7 +92,6 @@ header a {
     text-align: center;
     margin: 30px 0;
     font-size: 54px;
-    text-shadow: 0 0 10px rgba(0,0,0,0.3);
     color: #2e3332;
     font-weight: bold;
 }
@@ -166,6 +196,35 @@ footer a {
 @media screen and (max-width: 835px) {
     header {
         padding: 20px 15px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav {
+        width: 100%;
+        display: none;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header nav ul li {
+        text-align: center;
+    }
+
+    nav.active {
+        display: flex;
     }
 }
 
