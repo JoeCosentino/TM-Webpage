@@ -105,6 +105,7 @@ section {
     align-items: center;
     margin: 20px 0;
     color: #06052b;
+    padding: 20px 0;
 }
 
 .section-left {
@@ -221,6 +222,10 @@ footer a {
         font-size: 20px;
         color: #2e3332;
         margin: 0;
+    }
+
+    .first-section {
+        padding-right: 0;
     }
 
     .first-wrapper {
