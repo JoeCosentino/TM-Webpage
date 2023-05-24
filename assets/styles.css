@@ -120,7 +120,11 @@ section {
     align-items: center;
 }
 
-section img {
+.img-one img {
+    max-width: 500px;
+}
+
+.img2 img, .img3 img, .img4 img, .img5 img {
     max-width: 320px;
 }
 
@@ -216,6 +220,33 @@ footer a {
         font-size: 20px;
         color: #2e3332;
         margin: 0;
+    }
+
+    .first-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .first-wrapper .text {
+        text-align: center;
+        align-self: center;
+        padding: 0 10px;
+    }
+
+    .first-wrapper .section-left {
+        padding-left: 0;
+    }
+
+    .first-wrapper .section-right {
+        padding-right: 0;
+    }
+
+    .first-wrapper .wrapper h2 {
+        text-align: center;
+    }
+
+    .first-wrapper .img-left {
+        margin-bottom: 20px;
+        margin-right: 0;
     }
 }
 
