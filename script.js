@@ -7,5 +7,3 @@ toggleButton.addEventListener('click', event => {
     header.classList.toggle('active');
     event.preventDefault();
 });
-
-// toggleButton.addEventListener('click')

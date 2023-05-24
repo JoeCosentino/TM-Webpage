@@ -57,6 +57,7 @@ header h1 {
     font-size: 24px;
     color: #2e3332;
     margin: 0;
+    max-width: 80%;
 }
 
 header a {
@@ -65,8 +66,8 @@ header a {
 }
 
 .copyright {
-    font-size: 10px;
-    
+    font-size: 50%;
+    vertical-align: super;
 }
 
 /* ------------------------------------ mobile menu */
@@ -227,7 +228,6 @@ footer a {
 
     header nav {
         width: 100%;
-        padding-top: 10px;
         max-height: 65px;
         position: fixed;
         top: -200px;
