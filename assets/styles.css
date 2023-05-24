@@ -122,7 +122,6 @@ section {
 
 section img {
     max-width: 320px;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .img-left {
@@ -178,6 +177,10 @@ footer a {
     margin-bottom: 5px;
 }
 
+.footer-text a {
+    margin: 2.5px 0;
+}
+
 .footer-imgs {
     width: 20%;
     display: flex;
@@ -188,6 +191,16 @@ footer a {
 
 .footer-imgs a {
     margin: 0 5px;
+}
+
+.fa-facebook:hover,
+.fa-linkedin:hover,
+.fa-twitter:hover,
+.fa-instagram:hover {
+    background-color: white;
+    color: #0e1d6e;
+    padding: 4px;
+    border-radius: 5px;
 }
 
 /* ----------------------------- responsive design */
@@ -262,10 +275,6 @@ footer a {
 }
 
 @media screen and (max-width: 768px) {
-    /* section img {
-        max-width: 250px;
-    } */
-
     .footer-imgs {
         font-size: 20px;
     }
