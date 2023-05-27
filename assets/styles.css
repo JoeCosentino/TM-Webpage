@@ -118,8 +118,20 @@ section {
     align-items: center;
 }
 
+.first-wrapper {
+    /* width: 100%; */
+}
+
+.img-one  {
+    max-width: 50%;
+}
+
 .img-one img {
-    max-width: 500px;
+    max-width: 100%;
+}
+
+.text-one {
+    width: 50%;
 }
 
 .img2 img, .img3 img, .img4 img, .img5 img {
