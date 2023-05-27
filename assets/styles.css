@@ -118,10 +118,6 @@ section {
     align-items: center;
 }
 
-.first-wrapper {
-    /* width: 100%; */
-}
-
 .img-one  {
     max-width: 50%;
 }
@@ -238,6 +234,14 @@ footer a {
 
     .first-wrapper {
         flex-wrap: wrap;
+    }
+
+    .img-one  {
+        max-width: 100%;
+    }
+
+    .text-one {
+        width: 100%;
     }
 
     .first-wrapper .text {
