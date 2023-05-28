@@ -91,10 +91,14 @@ header a {
 
 .title {
     text-align: center;
-    margin: 75px 0 100px 0;
+    margin: 75px 0 25px 0;
     font-size: 54px;
     color: #223247;
     font-weight: bold;
+}
+
+.title-responsive {
+    display: none;
 }
 
 section {
@@ -234,15 +238,37 @@ footer a {
     }
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 950px) {
     header nav ul li a {
         font-size: 11px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .title {
+        display: none;
+    }
+
+    .title-responsive {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 54px;
+        color: #223247;
+        font-weight: bold;
+        display: block;
+    }
+
+    header nav ul li a {
         margin: 0 4px;
     }
     
     header h1 {
         font-weight: bold;
-        font-size: 20px;
+        /* font-size: 20px; */
         margin: 0;
     }
 
