@@ -9,6 +9,7 @@ body {
     background-color: #FBF8F6;
     position: relative;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 /* ---------------------------------------- header */
