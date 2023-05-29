@@ -147,14 +147,6 @@ section {
     max-width: 420px;
 }
 
-/* .img-left {
-    margin-right: 25px;
-}
-
-.img-right {
-    margin-left: 25px;
-} */
-
 .text-wrapper {
     display: flex;
     flex-direction: column;
@@ -182,7 +174,7 @@ footer {
     flex-wrap: wrap;
     position: fixed;
     bottom: 0;
-    height: 5.5rem;
+    height: 7.5rem;
     align-items: center;
 }
 
@@ -208,16 +200,27 @@ footer a {
 }
 
 .footer-imgs {
-    /* width: 20%; */
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 25px;
+    font-size: 16px;
     padding-right: 100px;
+    max-width: 30%;
 }
 
 .footer-imgs a {
     margin: 0 5px;
+    font-weight: bolder;
+}
+
+.fa-facebook,
+.fa-linkedin,
+.fa-twitter,
+.fa-instagram {
+    background-color: #99baf0;
+    padding: 4px;
+    border-radius: 5px;
+    color: #223247;
 }
 
 .fa-facebook:hover,
@@ -268,7 +271,6 @@ footer a {
     
     header h1 {
         font-weight: bold;
-        /* font-size: 20px; */
         margin: 0;
     }
 
@@ -367,12 +369,6 @@ footer a {
     }
 }
 
-@media screen and (max-width: 768px) {
-    .footer-imgs {
-        font-size: 20px;
-    }
-}
-
 @media screen and (max-width: 739px) {
     header {
         justify-content: center;
@@ -399,14 +395,6 @@ footer a {
     .first-wrapper .text {
         padding: 0 50px;
     }
-
-    /* .section-left {
-        padding-left: 0;
-    }
-
-    .section-right {
-        padding-right: 0;
-    } */
 
     .wrapper h2 {
         text-align: center;
@@ -435,10 +423,6 @@ footer a {
     nav {
         width: 90%;
     }
-
-    .footer-imgs {
-        font-size: 16px;
-    }
 }
 
 @media screen and (max-width: 471px) {
@@ -448,13 +432,18 @@ footer a {
     }
 
     .footer-imgs {
-        width: 15%;
+        max-width: 10%;
+    }
+
+    .footer-imgs a {
+        margin: 0 2.5px;
+        padding: 2.5px;
     }
 }
 
 @media screen and (max-width: 425px) {
     footer {
-        height: 3.5rem;
+        height: 5.5rem;
     }
     .footer-text, footer a {
         font-size: 7px;
